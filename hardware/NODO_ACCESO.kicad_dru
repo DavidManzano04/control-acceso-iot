@@ -1,0 +1,4 @@
+(version 1)
+(rule "USB-C GND spokes"
+  (condition "A.memberOfFootprint('J2')")
+  (constraint min_resolved_spokes 1))

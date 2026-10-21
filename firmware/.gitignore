@@ -1,0 +1,8 @@
+# Configuración real con WiFi, MQTT y claves HMAC
+data/config.json
+configs/
+
+# PlatformIO / VS Code
+.pio
+.vscode/
+compile_commands.json

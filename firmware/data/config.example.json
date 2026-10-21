@@ -1,0 +1,23 @@
+{
+  "system": {
+    "device_id": "entrada",
+    "device_secret": "CLAVE_HMAC_DE_32_CARACTERES_AQUI",
+    "rol": "entrada"
+  },
+  "network": {
+    "redes": [
+      { "ssid": "NOMBRE_DE_TU_RED", "password": "CLAVE_DE_TU_RED" }
+    ]
+  },
+  "mqtt": {
+    "broker": "tu-cluster.s1.eu.hivemq.cloud",
+    "port": 8883,
+    "user": "tu_usuario",
+    "password": "tu_contraseña"
+  },
+  "settings": {
+    "gate_open_ms": 4000,
+    "mqtt_timeout_ms": 5000,
+    "abrir_sin_conexion": false
+  }
+}

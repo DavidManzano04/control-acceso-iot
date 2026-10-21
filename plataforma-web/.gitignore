@@ -1,0 +1,25 @@
+# Credenciales y claves
+.env
+jwt_secret.key
+
+# Base de datos con registros reales
+*.db
+*.sqlite
+
+# Fotos y datos de personas
+static/fotos/
+qr_codes/
+
+# Firmware subido por OTA
+firmware/
+
+# Entorno de Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Respaldos y pruebas
+*.bak
+scratch/
+respaldo_*/
